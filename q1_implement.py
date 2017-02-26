@@ -11,7 +11,7 @@ logging.basicConfig(filename='q1_log.txt',
 			format='%(asctime)s %(levelname)s - %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p',
 					level=logging.DEBUG,
 						filemode='w')
-
+#allocates boys with girls
 def allocation():
 	
 
@@ -24,9 +24,11 @@ def allocation():
 		G = [girl(row[0],int(row[1]),int(row[2]),int(row[3]),(row[4])) for row in g_read]
 		csvgfile.close()
 	logging.info("matching is taking place:\n")
+	
 	for g in  G:
 		for b in  B:
 			logging.info("checking if girl:"+g.name+"matches with boy:"+b.name);
+			#checking required conditions to match girls with boys
 			if(g.check_eligible(b) and b.check_eligible(g)and g.status == 'single' and b.status == 'single'):
 
 				b.status = 'commited'
