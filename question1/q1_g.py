@@ -17,7 +17,3 @@ class girl:
             return  False
 	else:
 	    return True
-
-    #returns status of a boy
-    def self_status (self):
-        return self.status
