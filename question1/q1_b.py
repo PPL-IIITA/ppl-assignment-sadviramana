@@ -21,9 +21,4 @@ class boy:
             return False
         else: 
 	    return True
-
-
-    def self_status (self):
-    #returns status of a boy
-        return self.status
     
