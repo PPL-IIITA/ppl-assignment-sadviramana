@@ -1,9 +1,10 @@
 #PPLAssignment
 
-#Sadvi Ramana(IIT2015140)
+#project made by Sadvi Ramana(IIT2015140) in git-classroom
 
 ##System Build
 >ubuntu 16.04 Gnome
+
 >OS-64-bit
 
 ##prerequisites
@@ -11,6 +12,7 @@
 
 ##Commands for execution
 >python question1/q1_implement.py
+
 >pyhton question2/q2_implement.py
 
 ##Class Diagrams
@@ -18,4 +20,5 @@
 
 ##Tools Used
 >python - 2.7.12
+
 >StarUML for Class Diagrams
