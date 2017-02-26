@@ -1,4 +1,6 @@
 # ppl-assignment-sadviramana
 
+#question1
 
-Run q1_implement.py
+##Execution
+>Run q1_implement.py
